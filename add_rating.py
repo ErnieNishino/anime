@@ -1,6 +1,6 @@
 import json
 from crawler import get_douban_rating
-# 请替换为你的文件路径
+# 文件路径
 json_file_path = 'anime_data.json'
 
 # 读取 JSON 文件
