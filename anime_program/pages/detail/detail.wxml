@@ -2,10 +2,10 @@
 
 <view>
   <button bindtap="navigateBack" class="back-button">返回</button>
-  <image src="{{cover}}" mode="aspectFill"></image>
-  <text>{{name}}</text>
-  <text>类型：{{type}}</text>
-  <text>演员：{{actors}}</text>
-  <text>制作：{{production}}</text>
-  <text>豆瓣评分：{{douban_rating}}</text> 
+  <image src="" mode="aspectFill"></image>
+  <text>{{Name}}\n</text>
+  <text>类型：{{Type}}\n</text>
+  <text>演员：{{Actors}}\n</text>
+  <text>制作：{{Prod}}\n</text>
+  <text>豆瓣评分：{{Rate}}\n</text> 
 </view>
