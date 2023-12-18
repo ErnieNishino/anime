@@ -1,31 +1,9 @@
 <view>
-  <button bindtap="showAnimeByDay" data-day="Monday">周一</button>
-  <button bindtap="showAnimeByDay" data-day="Tuesday">周二</button>
-  <button bindtap="showAnimeByDay" data-day="Wednesday">周三</button>
-  <button bindtap="showAnimeByDay" data-day="Thursday">周四</button>
-  <button bindtap="showAnimeByDay" data-day="Friday">周五</button>
-  <button bindtap="showAnimeByDay" data-day="Saturday">周六</button>
-  <button bindtap="showAnimeByDay" data-day="Sunday">周日</button>
-  <text>{{showAnime}}</text>
+  <button bindtap="gotoWeek" data-day="周一">周一</button>
+  <button bindtap="gotoWeek" data-day="周二">周二</button>
+  <button bindtap="gotoWeek" data-day="周三">周三</button>
+  <button bindtap="gotoWeek" data-day="周四">周四</button>
+  <button bindtap="gotoWeek" data-day="周五">周五</button>
+  <button bindtap="gotoWeek" data-day="周六">周六</button>
+  <button bindtap="gotoWeek" data-day="周日">周日</button>
 </view>
-<view wx:if="{{showAnime}}">
-  <block wx:for="{{showAnime}}" wx:key="name">
-    <view bindtap="goToDetailPage" data-index="{{index}}">
-      <image src="img/{{item.name}}.jpg" mode="aspectFill"></image>
-      <text>{{item.name}}</text>
-      <text>豆瓣评分：{{item.douban_ratings}}</text>
-    </view>
-  </block>
-</view>
-
-<view>
-  <block wx:for="{{animeData}}" wx:for-index="index" wx:for-item="item" wx:key="index">
-    <!-- 只输出前两条数据 -->
-    <view wx:if="{{index < 2}}">
-      <text>{{item.title}}</text>
-      
-      <!-- 其他需要显示的数据项 -->
-    </view>
-  </block>
-</view>
-
