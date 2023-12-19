@@ -1,15 +1,13 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/logs/logs",
     "pages/week/week",
-    "pages/detail/detail",
-    "pages/logs/logs"
+    "pages/detail/detail"
   ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
   },
   "style": "v2",
   "rendererOptions": {
