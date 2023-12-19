@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f7cfd76-5522-450c-95c9-58408aa20b75" name="变更" comment="变更">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/anime.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime_program/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/anime_program/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime_program/img/航海王（海贼王）.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime_program/pages/detail/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/anime_program/pages/detail/detail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime_program/pages/detail/detail.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/anime_program/pages/detail/detail.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime_program/pages/detail/detail.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/anime_program/pages/detail/detail.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime_program/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/anime_program/pages/index/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime_program/pages/index/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/anime_program/pages/index/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime_program/pages/week/week.js" beforeDir="false" afterPath="$PROJECT_DIR$/anime_program/pages/week/week.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime_program/pages/week/week.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/anime_program/pages/week/week.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime_program/pages/week/week.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/anime_program/pages/week/week.wxss" afterDir="false" />
-    </list>
+    <list default="true" id="8f7cfd76-5522-450c-95c9-58408aa20b75" name="变更" comment="第一版变更1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +12,14 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="第一版变更1">
+      <created>1702956895532</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702956895532</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -67,6 +57,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一版变更1" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一版变更1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/anime$get_movie_data.coverage" NAME="get_movie_data 覆盖结果" MODIFIED="1702377552608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

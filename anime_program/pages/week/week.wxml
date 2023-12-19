@@ -1,11 +1,10 @@
-<view>
-  <text>\n\n\n\n</text>
-  <text>这是{{day}}更新的动漫\n</text>
+<view class="container">
+  <text class="text-container2">{{day}}更新的动漫\n</text>
 </view>
 <view>
   <block wx:for="{{animeByDay}}" wx:for-item="anime" wx:key="index">
     <view class="image-container">
-      <image src="/img/{{anime.name}}.jpg" bindtap="gotoDetail" data-name="{{anime.name}}" class="image"></image>
+      <image src="/img/{{anime.name}}.jpg" bindtap="gotoDetail" data-name="{{anime.name}}" data-updateDay="{{anime.updateDay}}" data-type="{{anime.type}}" data-introduction="{{anime.introduction}}" data-actors="{{anime.actors}}" data-production="{{anime.production}}" data-douban_ratings="{{anime.douban_ratings}}" class="image"></image>
       <view class="text-container">
         <text>{{anime.name}}\n</text>
         <text>豆瓣评分： {{anime.douban_ratings}}</text>
@@ -13,6 +12,6 @@
     </view>
     <text>\n</text>
   </block>
-  <button bindtap="navigateBack" class="back-button">返回</button>
+  
 </view>
 

@@ -1,11 +1,14 @@
 <!-- detail.wxml -->
 
-<view>
-  <button bindtap="navigateBack" class="back-button">返回</button>
-  <image src="{{cover}}" mode="aspectFill"></image>
-  <text>{{name}}</text>
-  <text>类型：{{type}}</text>
-  <text>演员：{{actors}}</text>
-  <text>制作：{{production}}</text>
-  <text>豆瓣评分：{{douban_rating}}</text> 
+<view class="container">
+  <image src="/img/{{Name}}.jpg" mode="aspectFill" class="image"></image>
+  <text class="title" user-select="true">{{Name}}\n</text>
+  <text class="bold">类型</text>
+  <text>{{Type}}\n</text>
+  <text class="bold">演员</text>
+  <text>{{Actors}}\n</text>
+  <text class="bold">制作</text>
+  <text>{{Prod}}\n</text>
+  <text class="bold">豆瓣评分</text>
+  <text>{{Rate}}\n</text> 
 </view>

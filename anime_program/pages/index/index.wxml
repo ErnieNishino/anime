@@ -1,3 +1,9 @@
+<view class="container">
+<text class="title">动漫展示表</text>
+<text>本次展示的是2023年10月开播的动漫</text>
+<text>请选择想查看哪一天更新的动漫</text>
+</view>
+
 <view>
   <button bindtap="gotoWeek" data-day="周一">周一</button>
   <button bindtap="gotoWeek" data-day="周二">周二</button>

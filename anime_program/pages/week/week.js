@@ -665,11 +665,17 @@ Page({
   },
   gotoDetail: function (event) {
     const animeName = event.currentTarget.dataset.name;
-    const selectedAnime = this.data.animeByDay.find(anime => anime.name === animeName); // 使用 this.data.animeByDay
+    const animeDay = event.currentTarget.dataset.updateDay;
+    const animeType = event.currentTarget.dataset.type;
+    const animeIntroduction = event.currentTarget.dataset.introduction;
+    const animeActors = event.currentTarget.dataset.actors;
+    const animeProduction = event.currentTarget.dataset.production;
+    const animeRate = event.currentTarget.dataset.douban_ratings;
     wx.navigateTo({
-      url: `/pages/detail/detail?name=${animeName}&data=${JSON.stringify(selectedAnime)}`
+      url: `/pages/detail/detail?name=${animeName}&day=${animeDay}&type=${animeType}&intro=${animeIntroduction}&actors=${animeActors}&prod=${animeProduction}&rate=${animeRate}`
     });
   },
+  
   navigateBack: function () {
     wx.navigateBack();
   }

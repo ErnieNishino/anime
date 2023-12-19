@@ -1,0 +1,12 @@
+.image {
+  width: 200px;
+  height: 250px;
+  margin-right: 10px;
+}
+.bold {
+  font-size: large;
+  color: rgb(247, 3, 174);
+}
+.title {
+  font-size: larger;
+}
