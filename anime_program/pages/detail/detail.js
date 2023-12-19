@@ -1,13 +1,13 @@
 // detail.js
 Page({
   data: {
-    Name: null,
-    Day: null,
-    Type: null,
-    Intro: null,
-    Actors: null,
-    Prod: null,
-    Rate: null
+    Name: "暂无",
+    Day: "暂无",
+    Type: "暂无",
+    Intro: "暂无",
+    Actors: "暂无",
+    Prod: "暂无",
+    Rate: "暂无"
   },
   onLoad(options) {
     this.setData({
