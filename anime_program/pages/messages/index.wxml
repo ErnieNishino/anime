@@ -1,0 +1,13 @@
+<view class="messages">
+  <view class="item" wx:for="{{messages}}" wx:key="id">
+    <navigator>
+      <text class="title">{{item.title}}</text>
+    </navigator>
+    <text class="date">{{item.date}}</text>
+    <navigator>
+      <image  mode="aspectFill" src="{{item.image}}"/>
+    </navigator>
+    <navigator class="expand" url="/pages/messageDetail/messageDetail?title={{item.title}}&date={{item.date}}&image={{item.image}}&detail={{item.detail}}">查看详情</navigator>
+  </view>
+</view>
+<view id="bottom"></view>

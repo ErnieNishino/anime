@@ -1,0 +1,11 @@
+<!--pages/messageDetail/messageDetail.wxml-->
+<view class="container">
+  <view >
+    <text class="title">{{title}}\n</text>
+    <text>{{date}}</text>
+  </view>
+  <image class="image" src="{{image}}" mode="aspectFit"></image>
+  <view>
+    <text class="detail-content">{{detail}}</text>
+  </view>
+</view>

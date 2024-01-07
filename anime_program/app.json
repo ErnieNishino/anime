@@ -3,12 +3,33 @@
     "pages/index/index",
     "pages/week/week",
     "pages/detail/detail",
-    "pages/logs/logs"
-  ],
+    "pages/logs/logs",
+    "pages/messages/index",
+    "pages/messageDetail/messageDetail"
+  ],"tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "img/首页.png",
+        "selectedIconPath": "img/首页选中.png"
+      },
+      {
+        "pagePath": "pages/messages/index",
+        "text": "资讯",
+        "iconPath": "img/资讯.png",
+        "selectedIconPath": "img/资讯选中.png"
+      }
+    ],
+    "color": "#000000",    
+    "selectedColor": "#00a651",  
+    "backgroundColor": "#ffffff",  
+    "borderStyle": "white" 
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "动漫展示表",
     "navigationBarTextStyle": "black"
   },
   "style": "v2",

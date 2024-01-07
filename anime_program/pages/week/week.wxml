@@ -1,5 +1,6 @@
 <view class="container">
-  <text class="text-container2">{{day}}更新的动漫\n</text>
+  <text class="text-container2">{{day}}更新的动漫</text>
+  <text>点击可查看详情</text>
 </view>
 <view>
   <block wx:for="{{animeByDay}}" wx:for-item="anime" wx:key="index">

@@ -1,0 +1,13 @@
+.image {
+  width: 200px;
+  height: 150px;
+  margin-right: 10px;
+}
+.detail-content {
+  font-size: 40rpx;
+  line-height: 1.5;
+  color: #333;
+}
+.title {
+  font-size: larger;
+}

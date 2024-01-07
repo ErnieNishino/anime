@@ -4,12 +4,16 @@
 <text>请选择想查看哪一天更新的动漫</text>
 </view>
 
+<view class="button-container">
+  <button bindtap="gotoWeek" data-day="周一" class="my-button">周一</button>
+  <button bindtap="gotoWeek" data-day="周二" class="my-button">周二</button>
+  <button bindtap="gotoWeek" data-day="周三" class="my-button">周三</button>
+  <button bindtap="gotoWeek" data-day="周四" class="my-button">周四</button>
+  <button bindtap="gotoWeek" data-day="周五" class="my-button">周五</button>
+  <button bindtap="gotoWeek" data-day="周六" class="my-button">周六</button>
+  <button bindtap="gotoWeek" data-day="周日" class="my-button">周日</button>
+ 
+</view>
 <view>
-  <button bindtap="gotoWeek" data-day="周一">周一</button>
-  <button bindtap="gotoWeek" data-day="周二">周二</button>
-  <button bindtap="gotoWeek" data-day="周三">周三</button>
-  <button bindtap="gotoWeek" data-day="周四">周四</button>
-  <button bindtap="gotoWeek" data-day="周五">周五</button>
-  <button bindtap="gotoWeek" data-day="周六">周六</button>
-  <button bindtap="gotoWeek" data-day="周日">周日</button>
+  <text class="copyright">© 2023 ErnieNishino制作</text>
 </view>
